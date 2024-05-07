@@ -6,6 +6,11 @@
 #include<math.h>
 using namespace std;
 bool prime(int num){
+    if (num<=1)
+    {
+        return false;
+    }
+    
     for(int i=2;i<=sqrt(num);i++){
         if (num%i==0)
         {
@@ -20,10 +25,11 @@ int main()
     int a,b;
     cout<<"enter the value of a and b"<<endl;
     cin>>a>>b;
+    cout<<"Prime numbers: "<<endl;
     for (int i=a;i<=b;i++)
     {
         if (prime(i))
-        {
+        {       
             cout<<i<<endl;
         }
     }
