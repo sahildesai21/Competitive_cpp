@@ -1,6 +1,6 @@
 //code to find the prime no.s between the given range of numbers
 /*  suppose i=num=4
-    check i(2...)<=sqrt(2)-(true)
+    check i(2...)<=sqrt(4)-(true)
     check num(4)%i(2,..)==0 -(true) then it is not a prime number    */
 #include<iostream>
 #include<math.h>
