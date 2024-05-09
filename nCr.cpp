@@ -1,3 +1,4 @@
+//code to find the value of nCr
 #include<iostream>
 #include<math.h>
 using namespace std;
