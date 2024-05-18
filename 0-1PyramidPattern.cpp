@@ -24,7 +24,7 @@ int main()
                 cout<<"1"<<" ";
             }
             else{
-                cout<<"2"<<" ";
+                cout<<"0"<<" ";
             }
             
         }
