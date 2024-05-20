@@ -4,6 +4,6 @@ int main()
 {
     system("cls");
     int a=10;
-    cout<<a<<endl;
+    cout<<a;
     return 0;
 };
